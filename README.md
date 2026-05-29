@@ -10,6 +10,10 @@ The pipeline supports:
 - integrated galaxy SED synthesis,
 - (SDSS) broadband photometry
 
+The primary pipeline implementaion is provided in the notebook \texttt{SEDComputing_Main_Pipeline.v1.ipynb}.
+The repository further includes supporting documentation and manuels, including \textttt{GADGET-4 Osaka Manuel} and the author's own documentation, \texttt{SED Computing Pipeline for Simulated Galaxies - Technical Documentation}, 
+which describes the pipeline architecture, implementation details, scientific assumptions, and usage of the included code. 
+
 # Pipeline Structure
 The pipeline consists of four major stages:
 
