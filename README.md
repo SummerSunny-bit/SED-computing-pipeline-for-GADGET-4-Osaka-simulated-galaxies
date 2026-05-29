@@ -11,8 +11,9 @@ The pipeline supports:
 - (SDSS) broadband photometry
 
 The primary pipeline implementaion is provided in the notebook "SEDComputing_Main_Pipeline.v1.ipynb".
-The repository further includes supporting documentation and manuels, including "GADGET-4 Osaka Manuel" and the author's own documentation, "Technical Documentation", 
-which describes the pipeline architecture, implementation details, scientific assumptions, and usage of the included code. 
+The repository further includes supporting documentation and manuels, including "GADGET-4 Osaka Manuel" and the suggested envionment.
+
+IMPORTANT: Please read the "Technical Documentation" first before running any code. It contains critical information regarding pipeline architecture, scientific assumptions, and the required software packages.
 
 # Pipeline Structure
 The pipeline consists of four major stages:
