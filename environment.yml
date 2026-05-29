@@ -1,0 +1,30 @@
+name: FSPS_Osaka
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+
+  # Core scientific packages
+  - numpy
+  - scipy
+  - h5py
+  - matplotlib
+  - astropy
+  - tqdm
+
+  # Jupyter environment
+  - jupyter
+  - ipykernel
+  - ipython
+
+  # Optional utility packages
+  - pandas
+
+  # Pip dependencies
+  - pip
+
+  - pip:
+      - fsps
